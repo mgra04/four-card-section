@@ -89,6 +89,7 @@ body {
   color: var(--clr-text-primary);
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 0.1rem;
 }
 
 .card-description {
@@ -182,4 +183,9 @@ body {
     grid-column: 3;
     grid-row: 2 / span 2;
   }
+
+  .card-title {
+    margin-bottom: 0.6rem;
+  }
 }
+
